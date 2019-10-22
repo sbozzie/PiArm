@@ -8,7 +8,7 @@ from serial_comm import SerialComm
 
 class PiArm(SerialComm):
     '''
-    This is a class for handle servo command frames
+    This is a class for handling servo command frames
     '''
     STARTBYTE = 0x55
     BROADCAST = 0XFE
