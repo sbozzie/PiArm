@@ -2,8 +2,6 @@
 
 '''
 This file contains PiArm servo serial codes
-Developed by - SB Components
-http://sb-components.co.uk
 '''
 
 from serial_comm import SerialComm

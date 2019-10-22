@@ -2,8 +2,6 @@
 
 '''
 This file contains Joystick example code for controlling PiArm
-Developed by - SB Components
-http://sb-components.co.uk
 '''
 
 import re

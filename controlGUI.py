@@ -2,8 +2,6 @@
 
 '''
 This file contains GUI code for Controlling PiArm
-Developed by - SB Components
-http://sb-components.co.uk
 '''
 
 import piarm
@@ -71,7 +69,7 @@ class MainApp(piarm.PiArm, tk.Tk):
         self.right_frame=tk.Frame(self.container,bg="gray85")
         self.right_frame.pack(side="left",fill="both",expand=True)
         
-        logo = tk.PhotoImage(file = Root_Dir + '/Images/DALogo.png')
+        logo = tk.PhotoImage(file = Root_Dir + '/Images/DALogoSmall.png')
         img = tk.PhotoImage(file = Root_Dir + '/Images/piarm.png')
         self.camIcon = tk.PhotoImage(file = Root_Dir + '/Images/camera.png')
         self.vidIcon = tk.PhotoImage(file = Root_Dir + '/Images/video.png')

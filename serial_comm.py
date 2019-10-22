@@ -2,8 +2,6 @@
 
 '''
 This file handle serial read and write
-Developed by - SB Components
-http://sb-components.co.uk
 '''
 
 import serial

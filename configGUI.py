@@ -2,8 +2,6 @@
 
 '''
 This file contains GUI code for Configuring PiArm Servo
-Developed by - SB Components
-http://sb-components.co.uk
 '''
 
 import piarm
@@ -45,7 +43,7 @@ class MainApp(piarm.PiArm, tk.Tk):
         self.config(bg="gray85")
         
         img = tk.PhotoImage(file= Root_Dir + '/Images/settings.png')
-        logo = tk.PhotoImage(file= Root_Dir + '/Images/DALogo.png')
+        logo = tk.PhotoImage(file= Root_Dir + '/Images/DALogoSmall.png')
         
         self.top_frame=tk.Frame(self,height=int(self.app_height/15),bd=2,
                                 width=self.app_width,bg="gray85")
@@ -895,7 +893,7 @@ class AboutFrame(tk.Frame):
         label.grid(row=6, column=0,pady=(80,10))
 
         website = tk.Button(self,bg="SteelBlue2",fg="white", font=('Helvetica', 15),
-                         text="www.sb-components.co.uk", command=self.mainWebsite)
+                         text="www.deviceauthority.com", command=self.mainWebsite)
         website.grid(row=7, column=0)
 
         shop = tk.Button(self,bg="tomato",fg="white", font=('Helvetica', 15),
@@ -908,15 +906,15 @@ class AboutFrame(tk.Frame):
 
     def mainWebsite(self):
         '''
-        Open browser with sb-components website
+        Open browser 
         '''
-        webbrowser.open('https://sb-components.co.uk')
+        webbrowser.open('https://www.deviceauthority.com')
 
     def shopWebsite(self):
         '''
-        Open website with sb-components shop's website
+        Open website 
         '''
-        webbrowser.open('https://shop.sb-components.co.uk')
+        webbrowser.open('https://www.deviceauthority.com')
 
     def github(self):
         '''
